@@ -3,7 +3,7 @@
 
 type Shape = { shape: "circle", radius: 5 } | { shape: "rectangle", width: 4, height: 6}
 
-const calculateShapeArea = (shape: Shape) : number => {
+const calculateShapeArea = (shape: Shape) => {
     if(shape.shape === "rectangle"){
         const rectangleWidth = shape.width
         const rectangleHeight = shape.height;
